@@ -25,7 +25,7 @@ import io
 #input
 with dvc.api.open(
         'data/test_data.csv',
-        repo='https://github.com/shruthi-git-actions/dvc_v1.git',
+        repo='https://github.com/shruthi-git-actions/dvc_demo.git',
         remote='remote_storage',
         rev="experiment",
         encoding='utf-8'
@@ -34,7 +34,7 @@ with dvc.api.open(
 #data
 with dvc.api.open(
         'data/column_list_new.csv',
-        repo='https://github.com/shruthi-git-actions/dvc_v1.git',
+        repo='https://github.com/shruthi-git-actions/dvc_demo.git',
         remote='remote_storage',
         rev="experiment",
         encoding='utf-8'
