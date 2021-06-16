@@ -6,6 +6,7 @@ stages:
 
     outs:
       - out
+      - HumanEvent_Model.pkl
       
 
     
